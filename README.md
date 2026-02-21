@@ -373,3 +373,14 @@ void loop() {
     mfrc522.PICC_HaltA();
   }
 }
+```
+
+---
+
+<a id="contact"></a>
+## 📬 Contact & Connect
+
+Feel free to reach out for collaborations, questions, or just to connect:
+
+* **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/asifcw3d/)
+* **Email:** [youremail@example.com](asif67131@gmail.com)
