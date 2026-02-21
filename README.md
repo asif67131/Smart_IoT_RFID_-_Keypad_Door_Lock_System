@@ -5,15 +5,15 @@ An advanced, internet-connected security solution I engineered using the **ESP82
 ---
 
 ## 📑 Table of Contents
-1. [Project Gallery & Visuals](#-project-gallery--visuals)
-2. [System Logic Flow](#-system-logic-flow)
-3. [Key Features](#-key-features)
-4. [Hardware Architecture](#-hardware-architecture)
-5. [Engineering Trade-offs & Component Selection](#-engineering-trade-offs--component-selection)
-6. [Technical Challenges & Solutions](#-technical-challenges--solutions)
-7. [Installation & Setup](#-installation--setup)
-8. [Future Scope](#-future-scope)
-9. [Full Source Code](#-full-source-code)
+1. [Project Gallery & Visuals](#project-gallery)
+2. [System Logic Flow](#system-logic-flow)
+3. [Key Features](#key-features)
+4. [Hardware Architecture](#hardware-architecture)
+5. [Engineering Trade-offs & Component Selection](#engineering-trade-offs)
+6. [Technical Challenges & Solutions](#technical-challenges)
+7. [Installation & Setup](#installation-setup)
+8. [Future Scope](#future-scope)
+9. [Full Source Code](#full-source-code)
 
 ---
 
@@ -22,6 +22,7 @@ Click the image below to watch the full system in action:
 
 [![Smart Lock Demo Video](images/video_thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
+<a id="project-gallery"></a>
 ## 🛠️ Project Gallery & Visuals
 
 I have documented the physical construction and digital interface to provide a transparent view of the system’s integration.
@@ -44,6 +45,7 @@ I designed a custom mobile dashboard to manage the lock remotely and view real-t
 
 ---
 
+<a id="system-logic-flow"></a>
 ## 📂 System Logic Flow
 
 To ensure the system is both secure and responsive, I designed a specific logic flow that prioritizes power efficiency and strict security validation.
@@ -61,6 +63,7 @@ To ensure the system is both secure and responsive, I designed a specific logic 
 
 ---
 
+<a id="key-features"></a>
 ## 🔑 Key Features
 * **Dual-Layer Authentication:** Physical access via **RFID (MFRC522)** tags combined with a **Virtual Keypad** on the Blynk App.
 * **Remote Management:** Real-time lock/unlock capabilities and system status monitoring via the **Blynk IoT Cloud**.
@@ -71,6 +74,7 @@ To ensure the system is both secure and responsive, I designed a specific logic 
 
 ---
 
+<a id="hardware-architecture"></a>
 ## 🔌 Hardware Architecture
 
 | Component | NodeMCU (ESP8266) Pin | Role |
@@ -88,6 +92,7 @@ To ensure the system is both secure and responsive, I designed a specific logic 
 
 ---
 
+<a id="engineering-trade-offs"></a>
 ## ⚙️ Engineering Trade-offs & Component Selection
 
 I specifically chose the **ESP8266 (NodeMCU)** over the standard Arduino Uno for several technical reasons:
@@ -97,6 +102,7 @@ I specifically chose the **ESP8266 (NodeMCU)** over the standard Arduino Uno for
 
 ---
 
+<a id="technical-challenges"></a>
 ## ⚠️ Technical Challenges & Solutions
 
 ### 1. Resolving Pin Conflicts (Internal Flash)
@@ -113,6 +119,7 @@ I specifically chose the **ESP8266 (NodeMCU)** over the standard Arduino Uno for
 
 ---
 
+<a id="installation-setup"></a>
 ## 🚀 Installation & Setup
 
 To replicate this firmware, the following C++ libraries are required via the Arduino Library Manager:
@@ -132,6 +139,7 @@ To replicate this firmware, the following C++ libraries are required via the Ard
 
 ---
 
+<a id="future-scope"></a>
 ## 🔮 Future Scope
 * **Migration to ESP32:** Transitioning the architecture to utilize integrated BLE (Bluetooth Low Energy) and dual-core processing.
 * **Biometric Integration:** Adding a capacitive fingerprint sensor for a third factor of authentication in high-security environments.
@@ -139,6 +147,7 @@ To replicate this firmware, the following C++ libraries are required via the Ard
 
 ---
 
+<a id="full-source-code"></a>
 ## 💻 Full Source Code
 
 ```cpp
@@ -361,4 +370,3 @@ void loop() {
     mfrc522.PICC_HaltA();
   }
 }
-
