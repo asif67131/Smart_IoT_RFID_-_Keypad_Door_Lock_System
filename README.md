@@ -43,6 +43,9 @@ I designed a custom mobile dashboard to manage the lock remotely and view real-t
 ![Blynk App Layout](images/blynk_dashboard.jpeg)
 > **Blynk Dashboard:** Features a Remote Unlock switch, Live Event Terminal, and Storage Management controls.
 
+![Blynk App Layout](images/logs.png)
+> **LOGS:** Stores all the enteries.
+
 ---
 
 <a id="system-logic-flow"></a>
