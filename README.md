@@ -5,7 +5,7 @@ An advanced, internet-connected security solution I engineered using the **ESP82
 ---
 
 ## 📑 Table of Contents
-1. [Project Gallery & Visuals](#-project-gallery-&-visuals)
+1. [Project Gallery & Visuals](#-project-gallery--visuals)
 2. [System Logic Flow](#-system-logic-flow)
 3. [Key Features](#-key-features)
 4. [Hardware Architecture](#-hardware-architecture)
