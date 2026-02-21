@@ -383,4 +383,4 @@ void loop() {
 Feel free to reach out for collaborations, questions, or just to connect:
 
 * **LinkedIn:** [linkedIn](https://www.linkedin.com/in/asifcw3d/)
-* **Email:** [asif67131@gmail.com](asif67131@gmail.com)
+* **Email:** asif67131@gmail.com
