@@ -20,7 +20,7 @@ An advanced, internet-connected security solution I engineered using the **ESP82
 ### 🎥 Project Demo Video
 Click the image below to watch the full system in action:
 
-[![Smart Lock Demo Video](images/video_thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Smart Lock Demo Video](images/video_thumbnail.png)](https://youtu.be/1EW98H4KZ_I)
 
 <a id="project-gallery"></a>
 ## 🛠️ Project Gallery & Visuals
