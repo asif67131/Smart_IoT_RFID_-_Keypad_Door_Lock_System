@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3nsQ49PWe"
+#define BLYNK_TEMPLATE_ID "xyz" 
 #define BLYNK_TEMPLATE_NAME "Smart Lock"
-#define BLYNK_AUTH_TOKEN "sdKbLaxBHUlhmgDcjdUte-ZJne3oiJ9X"
+#define BLYNK_AUTH_TOKEN "xyz"      //Add your own Blynk Credentials in place of XYZ
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -11,8 +11,8 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
-char ssid[] = "ASIF CHAUDHRY";
-char pass[] = "11223344";
+char ssid[] = "abc";
+char pass[] = "abc";      //add your own wifi and password in place of abc
 
 // Updated Pin Assignments
 #define PIN_IR        D1   
