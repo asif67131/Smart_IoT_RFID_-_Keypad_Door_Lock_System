@@ -27,20 +27,19 @@ Click the image below to watch the full system in action:
 I have documented the physical construction and digital interface to provide a transparent view of the system’s integration.
 
 ### I. Hardware Implementation
-![Physical Build View](Smart_IoT_RFID_-_Keypad_Door_Lock_System
-/images/connections.jpg)
+![Physical Build View](images/connections.jpeg)
 >Shows the Breadboard View.
 
 ### II. Circuit Schematic
 I mapped the hardware to avoid GPIO pins that interfere with the ESP8266 boot process.
 
-![Circuit Schematic](./images/crkt.png)
+![Circuit Schematic](images/crkt.png)
 > **Circuit Diagram:** Clean schematic detailing the connections between the NodeMCU, MFRC522, IR sensor, and Active-Low Relay.
 
 ### III. Digital Interface (Blynk IoT)
 I designed a custom mobile dashboard to manage the lock remotely and view real-time logs.
 
-![Blynk App Layout](./images/blynk_dashboard.png)
+![Blynk App Layout](images/blynk_dashboard.png)
 > **Blynk Dashboard:** Features a Remote Unlock switch, Live Event Terminal, and Storage Management controls.
 
 ---
