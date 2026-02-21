@@ -20,7 +20,7 @@ An advanced, internet-connected security solution I engineered using the **ESP82
 ### 🎥 Project Demo Video
 Click the image below to watch the full system in action:
 
-[![Smart Lock Demo Video](./images/video_thumbnail.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Smart Lock Demo Video](images/video_thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## 🛠️ Project Gallery & Visuals
 
@@ -33,13 +33,13 @@ I have documented the physical construction and digital interface to provide a t
 ### II. Circuit Schematic
 I mapped the hardware to avoid GPIO pins that interfere with the ESP8266 boot process.
 
-![Circuit Schematic](images/crkt.png)
+![Circuit Schematic](images/crkt.jpg)
 > **Circuit Diagram:** Clean schematic detailing the connections between the NodeMCU, MFRC522, IR sensor, and Active-Low Relay.
 
 ### III. Digital Interface (Blynk IoT)
 I designed a custom mobile dashboard to manage the lock remotely and view real-time logs.
 
-![Blynk App Layout](images/blynk_dashboard.png)
+![Blynk App Layout](images/blynk_dashboard.jpeg)
 > **Blynk Dashboard:** Features a Remote Unlock switch, Live Event Terminal, and Storage Management controls.
 
 ---
