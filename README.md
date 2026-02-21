@@ -27,7 +27,8 @@ Click the image below to watch the full system in action:
 I have documented the physical construction and digital interface to provide a transparent view of the system’s integration.
 
 ### I. Hardware Implementation
-![Physical Build View](./images/connections.jpg)
+![Physical Build View](Smart_IoT_RFID_-_Keypad_Door_Lock_System
+/images/connections.jpg)
 >Shows the Breadboard View.
 
 ### II. Circuit Schematic
